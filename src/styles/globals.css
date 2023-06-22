@@ -15,9 +15,18 @@ body {
   background-size: cover;
   height: 100vh;
   width: 100%;
+  overflow: hidden;
 }
 
 h1 {
   font-size: 40px;
   font-family: 'river';
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.2);
 }
