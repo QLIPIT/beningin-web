@@ -23,6 +23,13 @@ h1 {
   font-family: 'river';
 }
 
+h2,
+button,
+p {
+  font-family: 'river';
+
+}
+
 .zoom {
   transition: transform 0.2s;
 }
