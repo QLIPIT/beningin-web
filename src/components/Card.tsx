@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import RaptureModal from './RaptureModal';
+import Link from 'next/link';
 
 const Card = () => {
   const [state, setState] = useState(false)
@@ -10,7 +11,7 @@ const Card = () => {
       <div className='absolute bottom-0 bg-black opacity-50 w-full h-40'></div>
       <div className='text-center absolute bottom-6 w-full text-white'>
         <h2 className='text-3xl my-1'>YHWH</h2>
-        <p className='text-[#7ADEFE] my-1 text-sm'>FeeD me Scripts!</p>
+        <Link href={'/feed'}><p className='text-[#7ADEFE] my-1 text-sm'>FeeD me Scripts!</p></Link>
         <p className='text-sm my-1'>20 SCRIPT POINTS</p>
         <p onClick={() => setState(!state)} className='text-sm my-1 cursor-pointer'>3 hours, 54 mins left to rapture</p>
       </div>

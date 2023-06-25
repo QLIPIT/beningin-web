@@ -13,7 +13,7 @@ export default ({ state, setState }: { state: any, setState: any }) => {
               <h2 className="text-3xl">ABout Rapture process</h2>
               <img src="/images/Naruto-scroll.png" alt="" />
             </div>
-            <div className="mt-3">You'd lose your GIN to the RAPTURE PROCESS if you don't feed it. Your GIN loses an hour for each script point they have. If a GIN gets “Raptured”, the NFT is lost to a smart contract and enters an automatic auction process in the QLIP Marketplace, a player can either buy it back with QLP tokens or lose it to the market</div>
+            <div className="mt-3">You'd lose your GIN to the <span className="text-[#7ADEFE]">RAPTURE PROCESS</span>  if you don't feed it. Your GIN loses an hour for each script point they have. If a GIN gets “Raptured”, the NFT is lost to a smart contract and enters an automatic auction process in the QLIP Marketplace, a player can either buy it back with QLP tokens or lose it to the market</div>
           </div>
         </div>
       </div>
