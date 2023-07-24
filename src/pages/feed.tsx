@@ -1,3 +1,4 @@
+import HeaderNav from '@/components/HeaderNav';
 import React, { Fragment } from 'react';
 
 const Feed = () => {
@@ -5,9 +6,7 @@ const Feed = () => {
     <Fragment>
       <title>Beningin || Feed Gin</title>
       <div className='mx-32 mt-8'>
-        <div className='flex justify-end'>
-          <button className='bg-white text-xl p-3 ml-auto w-52'>Connect Wallet</button>
-        </div>
+        <HeaderNav />
         <div className='flex justify-between'>
           <div className='bg-black text-white border border-white w-[30%] p-4'>
             <div className='text-center'>
